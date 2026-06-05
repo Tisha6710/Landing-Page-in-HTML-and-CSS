@@ -1,0 +1,121 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+
+    background-image: url("https://i.pinimg.com/736x/bc/bb/9f/bcbb9fe6dd36e67fc5f3f9ebf7780f9b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    color: orange;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+/* SEARCH */
+.search input {
+    padding: 7px;
+    border: none;
+}
+
+.search button {
+    padding: 7px 15px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+/* MAIN SECTION */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+/* LEFT CONTENT */
+.content {
+    color: white;
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content span {
+    color: orange;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+.join-btn {
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* LOGIN BOX */
+.login-box {
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+.login-box h2 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-box p {
+    color: white;
+}
+
+.login-box span {
+    color: orange;
+    cursor: pointer;
+}
